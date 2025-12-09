@@ -11,10 +11,10 @@
       "textDark": "#fafafa"
     },
     "contact": {
-      "whatsapp": "5511999999999",
-      "email": "contato@psicologiafeminina.com.br",
-      "phone": "+55 11 99999-9999",
-      "address": "Av. Paulista, 1000 - São Paulo, SP"
+      "whatsapp": "",
+      "email": "",
+      "phone": "",
+      "address": ""
     },
     "marketing": {
       "trackingCode": ""
@@ -22,8 +22,8 @@
   },
   "branding": {
     "logo": "",
-    "title": "Dra. Ana Carolina Silva",
-    "description": "Psicologia Feminina | Acolhimento e Transformação",
+    "title": "Mente Serena",
+    "description": "Clínica de psicologia com atendimento humanizado e resultados mensuráveis.",
     "favicon": "",
     "menu": [
       {
@@ -31,25 +31,13 @@
         "url": "/"
       },
       {
-        "label": "Benefícios",
-        "url": "/beneficios"
-      },
-      {
-        "label": "Serviços",
-        "url": "/servicos"
-      },
-      {
         "label": "Sobre",
         "url": "/sobre"
-      },
-      {
-        "label": "Depoimentos",
-        "url": "/depoimentos"
       }
     ]
   },
   "hero": {
-    "title": "Você merece um espaço seguro para ser que",
+    "title": "Você merece um espaço seguro para ser",
     "subtitle": "Psicoterapia acolhedora e feminina para mulheres que buscam autoconhecimento, equilíbrio emocional e transformação genuína",
     "buttonLabel": "Agendar Sessão",
     "secondaryButtonLabel": "",
@@ -63,6 +51,41 @@
     "extraNotes": ""
   },
   "pages": [
+    {
+      "slug": "home",
+      "title": "Início",
+      "content": "",
+      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/hero-psicologa.jpg",
+      "sections": [
+        {
+          "title": "Sobre",
+          "content": ""
+        },
+        {
+          "title": "Agende sua sessão",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "slug": "sobre",
+      "title": "Sobre",
+      "content": "Meu objetivo é criar um espaço onde você se sinta acolhida para explorar suas emoções, reconhecer suas potências e construir uma vida com mais leveza e autenticidade.",
+      "image": "",
+      "sections": []
+    },
+    {
+      "slug": "cta",
+      "title": "Agende sua sessão",
+      "content": "",
+      "image": "",
+      "sections": [
+        {
+          "title": "Agende sua sessão",
+          "content": ""
+        }
+      ]
+    },
     {
       "slug": "home",
       "title": "",
@@ -285,7 +308,7 @@
   "avisos": [],
   "blog": [],
   "footer": {
-    "copyright": "© 2024 Dra. Ana Carolina Silva",
+    "copyright": "© 2024 Clínica de Psicologia",
     "links": []
   },
   "features": {
