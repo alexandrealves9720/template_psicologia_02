@@ -39,8 +39,7 @@
   "hero": {
     "title": "Você merece um espaço seguro para ser",
     "subtitle": "Psicoterapia acolhedora e feminina para mulheres que buscam autoconhecimento, equilíbrio emocional e transformação genuína",
-    "buttonLabel": "Agendar Sessão",
-    "secondaryButtonLabel": "",
+    "cta": "Agendar Sessão",
     "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/hero-psicologa.jpg",
     "badge": ""
   },
@@ -49,6 +48,117 @@
     "experience": "",
     "serviceTypes": "",
     "extraNotes": ""
+  },
+  "benefits": [
+    {
+      "icon": "Heart",
+      "title": "Acolhimento Genuíno",
+      "description": "Um espaço seguro onde você pode ser autêntica, sem julgamentos, com respeito e empatia"
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Abordagem Feminina",
+      "description": "Terapia que compreende as questões únicas da mulher moderna, suas dores e suas potências"
+    },
+    {
+      "icon": "Shield",
+      "title": "Sigilo Absoluto",
+      "description": "Confidencialidade total em todos os atendimentos, presenciais ou online"
+    },
+    {
+      "icon": "Calendar",
+      "title": "Horários Flexíveis",
+      "description": "Atendimento adaptado à sua rotina, com agendamento facilitado e sessões online"
+    }
+  ],
+  "services": [
+    {
+      "title": "Terapia Individual",
+      "description": "Atendimento personalizado focado em suas necessidades, objetivos e momento de vida atual.",
+      "topics": [
+        "Ansiedade e estresse",
+        "Autoestima e autoconfiança",
+        "Relacionamentos",
+        "Transições de vida"
+      ]
+    },
+    {
+      "title": "Terapia Online",
+      "description": "Sessões por videochamada com a mesma qualidade do atendimento presencial, no conforto da sua casa.",
+      "topics": [
+        "Praticidade",
+        "Mesma eficácia",
+        "Horários flexíveis",
+        "Sigilo garantido"
+      ]
+    },
+    {
+      "title": "Abordagem Integrativa",
+      "description": "Combinação de técnicas da psicologia moderna para resultados mais profundos e duradouros.",
+      "topics": [
+        "Terapia Cognitivo-Comportamental",
+        "Psicanálise",
+        "Gestalt",
+        "Mindfulness"
+      ]
+    }
+  ],
+  "about": {
+    "name": "Dra. Ana Carolina Silva",
+    "title": "Psicóloga Clínica CRP 06/123456",
+    "description": "Psicóloga formada pela Universidade de São Paulo (USP), especializada em Psicologia Feminina e Terapia Cognitivo-Comportamental. Mais de 8 anos acompanhando mulheres em seus processos de autoconhecimento e transformação.",
+    "highlights": [
+      "Formação em Psicologia pela USP",
+      "Especialização em Psicologia Feminina",
+      "Pós-graduação em Terapia Cognitivo-Comportamental",
+      "Mais de 8 anos de experiência clínica",
+      "Atendimento humanizado e acolhedor"
+    ],
+    "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/psicologa-foto.jpg"
+  },
+  "testimonials": [
+    {
+      "name": "Mariana S.",
+      "text": "A terapia com a Dra. Ana mudou minha vida. Pela primeira vez me senti verdadeiramente ouvida e acolhida. Hoje me conheço melhor e vivo com mais leveza.",
+      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Juliana P.",
+      "text": "Encontrei na terapia um espaço seguro para trabalhar questões que carregava há anos. O atendimento é delicado, profundo e transformador.",
+      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Carolina M.",
+      "text": "A abordagem feminina e acolhedora fez toda diferença. Me sinto mais confiante, mais eu mesma. Gratidão por esse processo!",
+      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/testimonial-3.jpg"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Como funciona a primeira sessão?",
+      "answer": "A primeira sessão é um momento de acolhimento e conhecimento mútuo. Vamos conversar sobre o que te trouxe até aqui, suas expectativas e como posso te ajudar. É um espaço sem julgamentos para você se sentir à vontade."
+    },
+    {
+      "question": "Qual a frequência ideal das sessões?",
+      "answer": "Geralmente recomendo sessões semanais, mas a frequência pode ser ajustada de acordo com suas necessidades e disponibilidade. O importante é manter a constância para um processo terapêutico efetivo."
+    },
+    {
+      "question": "Quanto tempo dura cada sessão?",
+      "answer": "Cada sessão tem duração de 50 minutos, tempo adequado para um trabalho terapêutico profundo e acolhedor."
+    },
+    {
+      "question": "Atende por convênio?",
+      "answer": "Trabalho como profissional particular, mas forneço recibos que podem ser utilizados para reembolso em alguns convênios. Consulte seu plano de saúde."
+    },
+    {
+      "question": "Como é o atendimento online?",
+      "answer": "O atendimento online tem a mesma qualidade e eficácia do presencial. Utilizamos plataformas seguras com criptografia para garantir total sigilo e privacidade."
+    }
+  ],
+  "cta": {
+    "title": "Pronta para iniciar sua jornada de autoconhecimento?",
+    "subtitle": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar.",
+    "buttonText": "Agendar sessão"
   },
   "pages": [
     {
