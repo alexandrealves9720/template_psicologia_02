@@ -1,11 +1,21 @@
 import { MessageCircle } from "lucide-react";
 import { useState } from "react";
+import { useUniversalData } from "@/lib/useUniversalStore";
 
 const FloatingWhatsApp = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const whatsappNumber = "5511999999999";
+  const { data } = useUniversalData();
+
+  const phone = data?.site?.contact?.phone || data?.site?.phone;
+  const whatsapp = data?.site?.contact?.whatsapp || data?.site?.whatsapp;
+  const email = data?.site?.contact?.email || data?.site?.email;
+  const address = data?.site?.contact?.address || data?.site?.address;
+
+  const whatsappNumber = whatsapp || "";
   const message = "Olá! Gostaria de agendar uma sessão.";
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = whatsappNumber
+    ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
+    : "#";
 
   return (
     <a

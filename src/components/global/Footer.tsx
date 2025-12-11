@@ -1,6 +1,14 @@
 import { Heart, Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react";
+import { useUniversalData } from "@/lib/useUniversalStore";
 
 const Footer = () => {
+  const { data } = useUniversalData();
+
+  const phone = data?.site?.contact?.phone || data?.site?.phone;
+  const whatsapp = data?.site?.contact?.whatsapp || data?.site?.whatsapp;
+  const email = data?.site?.contact?.email || data?.site?.email;
+  const address = data?.site?.contact?.address || data?.site?.address;
+
   const currentYear = new Date().getFullYear();
 
   return (
@@ -66,22 +74,22 @@ const Footer = () => {
             </h4>
             <div className="flex flex-col gap-3">
               <a
-                href="tel:+5511999999999"
+                href={phone ? `tel:${phone}` : "#"}
                 className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors"
               >
                 <Phone size={16} className="text-primary" />
-                +55 11 99999-9999
+                {phone}
               </a>
               <a
-                href="mailto:contato@psicologiafeminina.com.br"
+                href={email ? `mailto:${email}` : "#"}
                 className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail size={16} className="text-primary" />
-                contato@psicologiafeminina.com.br
+                {email}
               </a>
               <div className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin size={16} className="text-primary mt-0.5" />
-                <span>Av. Paulista, 1000<br />São Paulo, SP</span>
+                <span>{address}</span>
               </div>
             </div>
           </div>
